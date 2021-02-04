@@ -19,6 +19,7 @@ services:
       - POSTGRES_PASSWORD=takimapass
       - POSTGRES_USER=takima
       - POSTGRES_DB=SchoolOrganisation
+    
 
   frontend:
     container_name: frontend

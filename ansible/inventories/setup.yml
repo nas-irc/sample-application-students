@@ -1,0 +1,7 @@
+all :
+ vars :
+  ansible_user : centos
+  ansible_ssh_private_key_file : /home/lumapps/Documents/Devops/tp02_03/sample-application-students/ansible/inventories/ssh_key/id_rsa
+ children :
+  prod :
+   hosts : nasri.galdeano.takima.cloud
